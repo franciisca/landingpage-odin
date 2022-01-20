@@ -43,7 +43,6 @@ a {
     margin-right: 70px;
     margin-left: 70px;
     padding: 80px;
-
 }
 
 .nest {
@@ -88,11 +87,10 @@ a {
 
 /* Banner dos; parte dos del website */
 
-
 .fondo2 {
     padding: 40px;
     margin-top: -20px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .info {
@@ -121,5 +119,62 @@ a {
     color: #354458;
 } 
 
+/* Banner 3 desde aca */
+
+.parte3 {
+    background-color: #e5e7eb;
+    padding: 60px;
+    color:#1f2937;
+}
+
+.quote {
+    display: flex;
+    min-width: 0;
+    font-size: 30px;
+    font-style: italic;
+    
+    text-align: justify;
+    margin-left: 220px;
+    margin-right: 130px;
+    margin-bottom: 40px;
+}
+
+.sign {
+    text-align: right;
+    font-weight: bold;
+    margin-right: 130px;
+}
 
 
+/* parte 4 desde aca  */
+
+.parte4 {
+    padding: 100px;
+}
+
+.azul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+    background-color: #3882f6;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.action {
+    color: #f9faf8;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: solid #f9faf8 2px;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+}
