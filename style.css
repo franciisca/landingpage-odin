@@ -91,16 +91,14 @@ a {
 
 .fondo2 {
     padding: 40px;
-    margin: 100px;
     margin-top: -20px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .info {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
-    /* padding: 35px; */
     text-align: center;
 }
 
@@ -116,18 +114,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    gap: 2px;
-    margin: 20px;
-    text-align: justify;
+    text-align: center;
     font-size: 12px;
-    
+    margin-right: 200px;
+    margin-left: 200px;
+    color: #354458;
 } 
 
-
-
-.eso {
-    margin-right: 90px;
-}
 
 
