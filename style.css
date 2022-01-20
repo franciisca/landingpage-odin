@@ -83,6 +83,7 @@ a {
     padding: 5px;
     margin-top: 15px;
     width: 90px;
+    flex-shrink: 0;
 }
 
 /* Banner dos; parte dos del website */
@@ -149,6 +150,8 @@ a {
 /* parte 4 desde aca  */
 
 .parte4 {
+    display: flex;
+    justify-content: center;
     padding: 100px;
 }
 
@@ -160,7 +163,6 @@ a {
     background-color: #3882f6;
     padding: 20px;
     border-radius: 5px;
-    display: flex;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -177,4 +179,14 @@ a {
     border-radius: 8px;
     width: 100px;
     height: 30px;
+    flex-shrink: 0;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1f2931;
+    color: #f9faf8;
+    text-align: center;
+    padding: 10px;
 }
